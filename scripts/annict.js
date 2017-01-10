@@ -28,7 +28,7 @@ module.exports = (robots) => {
 
   robots.hear(/anime now/i, (res) => {
     const now = new Date;
-    const season = `${now.getFullYear()}-${seasons[parseInt((now.getMonth()+1)/3)]}`;
+    const season = `${now.getFullYear()}-${seasons[parseInt(now.getMonth()/3)]}`;
 
     annict.Work.get({
       filter_season: season,
