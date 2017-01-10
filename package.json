@@ -1,0 +1,23 @@
+{
+  "name": "hubot-annict",
+  "version": "0.0.0",
+  "description": "Annict integration script for hubot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nukosuke/hubot-annict.git"
+  },
+  "keywords": [
+    "hubot",
+    "annict"
+  ],
+  "author": "nukosuke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nukosuke/hubot-annict/issues"
+  },
+  "homepage": "https://github.com/nukosuke/hubot-annict#readme"
+}
