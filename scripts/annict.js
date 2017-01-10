@@ -24,7 +24,7 @@ module.exports = (robots) => {
   }
 
   annict.client.setHeader("Authorization", `Bearer ${token}`);
-  const seasons = ['spring','summer','autumn','winter'];
+  const seasons = ['winter','spring','summer','autumn'];
 
   robots.hear(/anime now/i, (res) => {
     const now = new Date;
