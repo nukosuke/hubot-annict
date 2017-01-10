@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nukosuke/hubot-annict/issues"
   },
-  "homepage": "https://github.com/nukosuke/hubot-annict#readme"
+  "homepage": "https://github.com/nukosuke/hubot-annict#readme",
+  "dependencies": {
+    "annict": "^0.0.7"
+  }
 }
