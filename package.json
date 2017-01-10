@@ -1,6 +1,6 @@
 {
   "name": "hubot-annict",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Annict integration script for hubot.",
   "main": "index.js",
   "scripts": {
