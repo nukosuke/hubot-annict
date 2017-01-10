@@ -3,12 +3,13 @@
 Annict integration script for hubot
 
 # Install
-
+In your hubot root directory,
 ```sh
 $ npm install hubot-annict --save
 # or if you use Yarn for package managing
 $ yarn add hubot-annict
 ```
+and add `hubot-annict` to `external-scripts.json`. That's all :tada:
 
 # Commands
 
