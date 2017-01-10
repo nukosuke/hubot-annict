@@ -9,7 +9,12 @@ $ npm install hubot-annict --save
 # or if you use Yarn for package managing
 $ yarn add hubot-annict
 ```
-and add `hubot-annict` to `external-scripts.json`. That's all :tada:
+and add `hubot-annict` to `external-scripts.json`.
+
+Finally, awake hubot with environment variable, `HUBOT_ANNICT_TOKEN`.
+```sh
+$ HUBOT_ANNICT_TOKEN="<your_annict_access_token>" ./bin/hubot
+```
 
 # Commands
 
