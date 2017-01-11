@@ -31,7 +31,7 @@ module.exports = (robots) => {
     const season = `${now.getFullYear()}-${seasons[parseInt(now.getMonth()/3)]}`;
 
     annict.Work.get({
-      fields: ['official_site_url','title'],
+      fields: ['official_site_url','title'].join(','), //TODO: remove .join() after annict.js v0.0.8
       filter_season: season,
       sort_watchers_count: 'desc', // to get popular works first
     })
