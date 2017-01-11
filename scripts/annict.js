@@ -41,7 +41,7 @@ module.exports = (robots) => {
           throw new Error('invalid response json structure');
       }
 
-      const message = json.works.map(work => `<a href="${work.official_site_url}">${work.title}</a>`).join('\n');
+      const message = json.works.map(work => `<${work.official_site_url}|${work.title}>`).join('\n');
       res.reply(message);
     })
     .catch(err => {
