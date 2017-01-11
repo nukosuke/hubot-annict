@@ -20,17 +20,17 @@ $ HUBOT_ANNICT_TOKEN="<your_annict_access_token>" ./bin/hubot
 
 ```
 hubot> anime now
-hubot> Shell: <a href="http://www.saenai.tv/">冴えない彼女の育てかた♭</a>
-<a href="http://shingeki.tv/season2/">進撃の巨人 Season 2</a>
-<a href="http://eromanga-sensei.com/">エロマンガ先生</a>
-<a href="http://sakura-quest.com/">サクラクエスト</a>
-<a href="http://www.kurobas.com/">劇場版 黒子のバスケ LAST GAME</a>
-<a href="http://berserk-anime.com/">ベルセルク（第2期）</a>
-<a href="http://zeronosyo.com/">ゼロから始める魔法の書</a>
-<a href="http://heroaca.com/">僕のヒーローアカデミア（第2期）</a>
-<a href="http://www.conan-movie.jp/index.html">名探偵コナン から紅の恋歌</a>
-<a href="http://kinpri.com/">KING OF PRISM-PRIDE the HERO-</a>
-<a href="http://www.gundam-tb.net/">機動戦士ガンダム サンダーボルト（第2シーズン）</a>
+hubot> Shell: Shell: <a href="http://project-itoh.com/">虐殺器官</a>
+<a href="http://konosuba.com/">この素晴らしい世界に祝福を！2</a>
+<a href="http://www.kuzunohonkai.com/">クズの本懐</a>
+<a href="http://demichan.com/">亜人ちゃんは語りたい</a>
+<a href="http://masamune-tv.com/">政宗くんのリベンジ</a>
+<a href="http://chaoschildanime.com/">CHAOS;CHILD</a>
+<a href="http://tv.littlewitchacademia.jp/">リトルウィッチアカデミア</a>
+<a href="http://www.tbs.co.jp/anime/urara/">うらら迷路帖</a>
+<a href="http://youjo-senki.jp/">幼女戦記</a>
+<a href="http://sao-movie.net/">劇場版 ソードアート・オンライン -オーディナル・スケール-</a>
+<a href="http://www.tbs.co.jp/anime/seiren/">セイレン</a>
 .
 .
 .
