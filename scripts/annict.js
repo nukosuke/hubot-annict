@@ -6,7 +6,7 @@
 //
 // Commands:
 //   anime now - get works this season on air (upto 25 entry)
-//   anime q   - search works by keyword
+//   anime q <keyword> - search works by keyword
 //
 // Author:
 //   nukosuke
