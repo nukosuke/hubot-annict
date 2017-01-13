@@ -6,6 +6,7 @@
 //
 // Commands:
 //   anime now - get works this season on air (upto 25 entry)
+//   anime q   - search works by keyword
 //
 // Author:
 //   nukosuke
@@ -45,7 +46,30 @@ module.exports = (robots) => {
       res.reply(message);
     })
     .catch(err => {
-      res.reply(`error occured: ${err}`)
+      res.reply(`error occured: ${err}`);
+    });
+  });
+
+  robots.respond(/anime q (.*)/, (res) => {
+    const query = res.match[1];
+    annict.Work.get({
+      filter_title: query,
+    })
+    .then(response => response.json())
+    .then(json => {
+      if (typeof json.works === 'undefined') {
+          throw new Error('invalid response json structure');
+      }
+
+      if (json.works.length === 0) {
+        res.reply('No results found :bow:');
+      } else {
+        const message = json.works.map(work => `<${work.official_site_url}|${work.title}>`).join('\n');
+        res.reply(message);
+      }
+    })
+    .catch(err => {
+      res.reply(`error: ${err}`);
     });
   });
 };
