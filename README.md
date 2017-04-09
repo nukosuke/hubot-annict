@@ -18,23 +18,7 @@ $ HUBOT_ANNICT_TOKEN="<your_annict_access_token>" ./bin/hubot
 
 # Commands
 
-```
-hubot> anime now
-hubot> Shell: Shell: <a href="http://project-itoh.com/">虐殺器官</a>
-<a href="http://konosuba.com/">この素晴らしい世界に祝福を！2</a>
-<a href="http://www.kuzunohonkai.com/">クズの本懐</a>
-<a href="http://demichan.com/">亜人ちゃんは語りたい</a>
-<a href="http://masamune-tv.com/">政宗くんのリベンジ</a>
-<a href="http://chaoschildanime.com/">CHAOS;CHILD</a>
-<a href="http://tv.littlewitchacademia.jp/">リトルウィッチアカデミア</a>
-<a href="http://www.tbs.co.jp/anime/urara/">うらら迷路帖</a>
-<a href="http://youjo-senki.jp/">幼女戦記</a>
-<a href="http://sao-movie.net/">劇場版 ソードアート・オンライン -オーディナル・スケール-</a>
-<a href="http://www.tbs.co.jp/anime/seiren/">セイレン</a>
-.
-.
-.
-```
+[![https://gyazo.com/0b6876326dbad1a5cffa38c68ebd4943](https://i.gyazo.com/0b6876326dbad1a5cffa38c68ebd4943.png)](https://gyazo.com/0b6876326dbad1a5cffa38c68ebd4943)
 
 # License
 (c) 2017 nukosuke  
