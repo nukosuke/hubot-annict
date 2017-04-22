@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/nukosuke/hubot-annict#readme",
   "dependencies": {
-    "annict": "^0.0.7"
+    "annict": "^0.0.8"
   }
 }
